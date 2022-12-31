@@ -1,0 +1,35 @@
+so talking about HTML structure we looked at the top parent-child relationship but why is it also
+important well let's look at some real examples let's go to G Q calm you might start to recognize some of these
+developments here is probably some header tag this might be a P tag here's an image but how did these elements just
+know how to sit or as we call it how to be rendered why is the image on the left and not at the top if you take this
+whole block of content and consider to be an individual piece it's probably a div container with several other
+elements inside it well here's where we talk about the relationship between elements if I had two P tags to my HTML
+what do you think is going to happen how do you think they're going to sit how do you think they're going to be rendered
+well they sit on top of each other what if there were a tax links now they sit side-by-side but why is that
+well the reason for that is something that all elements have is called the display type and it's different for P as
+opposed to an a paragraphs or what we call block level elements that means they take up the entire row they go all
+the way to the right regardless of how much tax is in there a tag on the other hand doesn't you take as much horizontal
+space as they need depending on how much text is in there they just stopped where the text ends that's called an inline
+element which to me sounds like they're within the line where they belong so they stopped another example divs and
+spans these are both used as containers for other elements they don't necessarily render anything themselves
+they help with grouping things together here are two divs and here are two spans so the type of element you choose makes
+a massive difference and how they get rendered so now let's go back to GQ and look at some of those groups
+again what do you think these elements are what about these side panels do they look like there are groups I mean to me
+they look like your groups this is another group what if we could actually cheat and and see how they were built
+well we actually can and you already know how just right-click on any elements you're interested to see how
+it's built and click on inspect element this window will show you every element on this page if you can use this in
+Chrome Safari Firefox and I think they're all pretty much the same using IE I got nothing for you just change
+your browser please and you can do this to any web site in the world it's pretty amazing it's a it's really a great
+learning tool and just to poke around some of your favorite sites and and and see how they're built
+sometimes it's crazy what you find in there sometimes they're really confusing sometimes when you when you recognize
+something that you know like for example a piece of HTML did you give used before like a P tag or something kind of feels
+cool and that's it there is no mystery to it so spend some time look around on some of the websites that you like make
+maybe Facebook or Facebook's actually really complicated because it has a lot of little elements like like button and
+all those things but take a look and see how they're structured you'll pretty soon start to notice patterns that
+you're already familiar with so to recap there are block elements that take up the whole row there are
+inline elements that take as much space as they need here are two crazy things I'll add to that number one these are
+the most important display behaviors block and inline but there are other kinds as well and we will cover them
+number two you can change the display type of an element using two CSS so ap can actually become inline and a link
+can become block are you confused great that means you're getting into real HTML it will make more sense than more you do
+it so go ahead experiment I've shown you enough types of elements and the next couple videos will actually
+make a meaningful page together
